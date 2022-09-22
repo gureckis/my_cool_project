@@ -1,0 +1,18 @@
+@import './styles.css';
+@import "../node_modules/@creativebulma/bulma-divider";
+
+/* fixes a bug in Bulma */
+.navbar-menu {
+    background-color: inherit;
+}
+
+.config li {
+    padding-left: 35px;
+}
+
+.page {
+    padding-top: 40px;
+    height: 100vh;
+}
+
+
